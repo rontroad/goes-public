@@ -405,7 +405,7 @@ export default defineComponent({
             // <-- Utilisation du store
         }
     },
-    // --> Utilisation du store: ajout de l'attribut dans le store via l'utilitaire mapSatte
+    // --> Utilisation du store: ajout de l'attribut dans le store via l'utilitaire mapState
     // rappel: les computed sont des fonctions, ici un proxy vers le store
     computed: {
         ...mapState({
@@ -426,7 +426,7 @@ export default defineComponent({
             this.typedAddress = event.value.properties.label;
 
             // --> Utilisation du store
-            // l'attribur n'est plus modifié directement mais via le dispatch de l'action du store
+            // l'attribut n'est plus modifié directement mais via le dispatch de l'action du store
             // this.position = event.value.geometry.coordinates;
             this.$store.dispatch('setPosition', event.value.geometry.coordinates)
             // <-- Utilisation du store
