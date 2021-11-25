@@ -1,6 +1,5 @@
-# VueJS, une alternative crédible pour le développement d'une SPA
 ---
-title: "Mon github.io"
+title: "VueJS, une alternative crédible pour le développement d'une SPA"
 ---
 # <img src="https://vuejs.org/images/logo.svg" width="30" />ueJS alternative crédible pour un développement d'une SPA
 Dans les architectures logicielles modernes, hormis contraintes spécifiques du client, il y a quelque chose qui ne fait pas débat, en tout cas vue du point de vue du chef de projet, c'est la mise en place de solution « Single Page Application » (SPA) et de Micro-Services (MS). Cette association gagnante permet à l’ère du cloud et du DevOps d’apporter l’atomicité et la souplesse pour délivrer de manière continue nos projets, petits ou gros.
