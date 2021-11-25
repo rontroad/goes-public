@@ -156,4 +156,6 @@ Time:        2.948s, estimated 5s
 Ran all test suites.
 ```
 
-On a ainsi de manière quasi immédiate un environnement prêt à l'emploi, initialisé et opérationnel, et une base d'application fonctionnelle et testée. Il n'y a plus qu'à !
+On a ainsi de manière quasi immédiate un environnement prêt à l'emploi, initialisé et opérationnel, et une base d'application fonctionnelle et testée. 
+
+Il n'y a plus qu'à !
