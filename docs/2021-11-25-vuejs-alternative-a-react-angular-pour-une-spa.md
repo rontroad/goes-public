@@ -24,8 +24,3 @@ Je peux personnellement témoigner de ces 2 premiers points et en tant que chef 
 Alors, bien sûr, tous ces avantages sont à mitiger. Certains évoqueront le risque de pérennité, mais VueJS n’est pas sans soutiens dans les communautés ou les entreprises (Google, BMW, Louis Vuitton, GitLab, …). Un argument fort remonté par l’étude de marché, c’est une « employabilité » plus forte avec Angular ou React, beaucoup plus d’offre d’emploi donc un intérêt surement supérieur pour nos ressources dans la perspective de leur développement professionnel.
 
 En conclusion, un argument béton, c’est avant tout hyper fun et gratifiant en tant que développeur de voir qu’on peut proprement, de manière industrielle, créer des composants et des sites très rapidement et bien sûr cloud ready !
-
-Pour ceux que ça intéresse, je vais compléter cette introduction par 3 articles un peu plus concrets :
-* La mise en place d’un projet VueJS, compter 30 minutes si vous voulez faire les manips de votre côté
-* Une illustration de l’approche par composant, de la réactivité et du store VueX, compter 2 heures
-* Une projection sur un Système d’Information Géographique (SIG), compter surement plutôt 1 jour
