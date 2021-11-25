@@ -135,7 +135,7 @@ La balise *template* comporte du code au format html avec les augmentations du l
 * en dehors d'une balise html, la syntaxe `{{ }}` permet d'accéder au valeur des propriétés, exemple `La position est {{ position }}`
 * il existe des opérateurs pour conditionner la génération de certains bloc, ex. `<div v-if="position !== null">` n'affiche ce bloc que si position n'est pas `null`.
 
-Le résultat donnera le composant ci-dessous :
+Le résultat donnera le composant ci-dessous :  
 ![adresse](./assets/adresse1.png)
 
 ## Récupération de la météo
@@ -255,7 +255,7 @@ Trois choses notables sur cet exemple:
 * la méthode `created()` qui correspond au [cycle de vie](https://v3.vuejs.org/guide/composition-api-lifecycle-hooks.html#lifecycle-hooks) d'un composant vue et en l'occurence qui est appelé à la création du composant. 
 * l'utilisation des propriétés *computed* qui permet de simplifier la gestion de l'affichage, ne pas hésiter non plus à utiliser des méthodes de formattage comme `formatTemp` qui permettent souvent de simplier le *template*.
 
-Le résultat donnera le composant ci-dessous :
+Le résultat donnera le composant ci-dessous :  
 ![adresse](./assets/meteo1.png)
 
 ## Bilan d'étape
@@ -294,7 +294,7 @@ export default class Home extends Vue {}
 }
 </style>
 ```
-Cela doit rendre quelque chose comme ça :
+Cela doit rendre quelque chose comme ça :  
 ![site](./assets/site1.png)
 
 > L'étape suivante est de relier les 2 composants en utilisant le store VueX. Ce n'est pas la méthode la plus simple, surtout dans notre cas de figure où, pour le moment, il n'y a que 2 composants. Néanmoins, cette approche est nécessaire la plupart du temps dans un projet et on peut se perdre dans des implémentations complexes avant de s'en rendre compte.
@@ -312,7 +312,7 @@ Le store comporte les principales entités suivantes :
 La différence entre *Mutations* et *Actions* n'est pas nécessairement évidente au début, surtout que toutes les méthodes (*Actions* ou *Mutations*) sont accessibles des composants. Le mieux est de s'en tenir à la règle suivante : 
 > les composants étendent le store pour accéder aux attributs, pour modifier un attribut, les composants dispatchent les actions qui vont commiter des mutations, en fin de chaine, les composants réagissent à la modification des attributs du store (propriétés *reactives*)
 
-Ci-dessous le pattern du store [VueX](https://next.vuex.vuejs.org/) extrait de sa documentation:
+Ci-dessous le pattern du store [VueX](https://next.vuex.vuejs.org/) extrait de sa documentation:  
 ![pattern store vuex](https://next.vuex.vuejs.org/vuex.png)
 
 ## Mise en place du store
@@ -454,7 +454,7 @@ A ce moment, on se rend compte que la valeur de position est synchronisée entre
     // <-- Utilisation du store
 ...
 ```
-Cela rend quelque chose comme ça :
+Cela rend quelque chose comme ça :  
 ![site](./assets/site2.png)
  
 # Conclusion
