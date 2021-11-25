@@ -1,2 +1,4 @@
 theme: jekyll-theme-architect
 title: Mon github.io
+github:
+  is_project_page: 0
