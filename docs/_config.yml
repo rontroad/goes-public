@@ -1,4 +1,4 @@
-theme: jekyll-theme-architect
+theme: jekyll-theme-leap-day
 title: Mon github.io
 github:
-  is_project_page: 0
+  is_project_page: False
