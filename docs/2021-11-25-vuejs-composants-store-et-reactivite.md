@@ -461,7 +461,7 @@ Cela rend quelque chose comme ça :
 Cet exemple permet de se familiariser avec la syntaxe des comopsants VueJS, en typescript, dans ce qui s'appelle l'[Option API](https://v3.vuejs.org/guide/typescript-support.html#using-with-options-api). Une nouveauté de VueJS est la [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html#why-composition-api) qui permet une meilleure mutualisation du code entre les composants, mais je trouve au détriment de la lisibilité du code, surtout dans un [Single File Component](https://v3.vuejs.org/guide/single-file-component.html#introduction).
 
 
-Elle donne aussi les clés pour mettre en place un store partagé et reactif. L'exemple peut être étendu avec d'autres composants qui se synchronise tous en cas de modification de position, cf. ci-dessous.
+Elle donne aussi les clés pour mettre en place un store partagé et reactif. L'exemple peut être étendu avec d'autres composants qui se synchronisent tous en cas de modification de position, cf. ci-dessous.
 ![site](./assets/site3.png)
 L'utilisation du store est optionnelle dans un projet VueJS et sa mise en oeuvre n'est pas si triviale (surtout en typescript), néanmoins, pour un projet réel, son utilité est plus que probable et on peut vite se perdre à essayer de gérer "à la main" le partage d'une information via les propriétés et les événments de chaque composant.
 
