@@ -1,3 +1,6 @@
+---
+title: "VUeJS alternative crédible pour un développement d'une SPA industrielle"
+---
 # Introduction
 Dans les architectures logicielles modernes, hormis contraintes spécifiques du client, il y a quelque chose qui ne fait pas débat, en tout cas vue du point de vue du chef de projet, c'est la mise en place de solution « Single Page Application » (SPA) et de Micro-Services (MS). Cette association gagnante permet à l’ère du cloud et du DevOps d’apporter l’atomicité et la souplesse pour délivrer de manière continue nos projets, petits ou gros.
 
