@@ -390,7 +390,7 @@ import { defineComponent } from 'vue';
 
 import { AddressSearchService } from '@/services/address-api';
 
-// --> Utilisation du store
+// --> Utilisation du store: ajout des imports
 import { mapState } from 'vuex';
 import { State } from '@/store';
 // <-- Utilisation du store
@@ -400,12 +400,13 @@ export default defineComponent({
         return {
             typedAddress: null as string|null,
             suggestions: [] as unknown[],
-            // --> Utilisation du store
+            // --> Utilisation du store: on supprime l'attribut interne du composant
             // position: [number, number]
             // <-- Utilisation du store
         }
     },
-    // --> Utilisation du store
+    // --> Utilisation du store: ajout de l'attribut dans le store via l'utilitaire mapSatte
+    // rappel: les computed sont des fonctions, ici un proxy vers le store
     computed: {
         ...mapState({
             position: state => (state as State).position
@@ -425,6 +426,7 @@ export default defineComponent({
             this.typedAddress = event.value.properties.label;
 
             // --> Utilisation du store
+            // l'attribur n'est plus modifié directement mais via le dispatch de l'action du store
             // this.position = event.value.geometry.coordinates;
             this.$store.dispatch('setPosition', event.value.geometry.coordinates)
             // <-- Utilisation du store
@@ -433,7 +435,7 @@ export default defineComponent({
 })
 </script>
 ```
-Il faut également transformer l'attribut *position* sur `src/components/WeatherCard.vue` comme précédemment. 
+Il faut également transformer l'attribut *position* sur `src/components/WeatherCard.vue` comme dans l'exemple ci-dessus. 
 
 A ce moment, on se rend compte que la valeur de position est synchronisée entre les 2 composants mais que les prévisions météos ne s'actualisent pas. En effet, il faut provoquer ce rafraichissement des prévisions en cas de modification de *position*. L'attribut *position* étant réactif, il suffit de rajouter une instruction *watch* sur l'attribut.
 
@@ -447,6 +449,7 @@ A ce moment, on se rend compte que la valeur de position est synchronisée entre
     // --> Utilisation du store
     watch: {
         position() {
+            // gets called whenever position's changed
             this.getLocation();
             this.getWeather();
         }
