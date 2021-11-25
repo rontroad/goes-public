@@ -1,7 +1,7 @@
 ---
 title: "Mon github.io"
 ---
-# VUeJS alternative crédible pour un développement d'une SPA industrielle
+# VueJS alternative crédible pour un développement d'une SPA industrielle
 Dans les architectures logicielles modernes, hormis contraintes spécifiques du client, il y a quelque chose qui ne fait pas débat, en tout cas vue du point de vue du chef de projet, c'est la mise en place de solution « Single Page Application » (SPA) et de Micro-Services (MS). Cette association gagnante permet à l’ère du cloud et du DevOps d’apporter l’atomicité et la souplesse pour délivrer de manière continue nos projets, petits ou gros.
 
 Une fois ceci dit, se posent de vastes questions sur le choix des composants logiciels, de la cible cloud, de son api management, de son service mesh, du meilleur pattern de micro-service pour notre besoin, de la meilleure solution de persistance, distribué ou non, managé ou non, etc... Tous ces sujets sont importants et nous pouvons compter sur nos architectes pour y apporter les meilleures réponses.
