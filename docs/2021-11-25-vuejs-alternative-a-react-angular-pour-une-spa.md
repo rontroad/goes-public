@@ -24,7 +24,7 @@ Je peux personnellement témoigner de ces 2 premiers points et en tant que chef 
 **Le positionnement de VueJS sur la courbe d’apprentissage et la productivité est selon moi démarquant dans la réalité du métier du développement informatique du moment**. Je trouve aussi que le positionnement du framework exclusivement côté front (pas côté serveur) est un avantage dans le découplage et au final l’évolutivité de nos solutions. A noter que la solution [NuxtJS](https://v3.nuxtjs.org) apporte justement ces capacités de rendu côté serveur, ce qui ont le SEO en contrainte forte devront probablement passer par là.
 
 Alors, bien sûr, tous ces avantages sont à mitiger. Certains évoqueront le risque de pérennité, mais VueJS n’est pas sans soutiens dans les communautés ou les entreprises (Google, BMW, Louis Vuitton, GitLab, …).  
-Un argument fort remonté par l’étude de marché citée ci-dessus, c’est une « employabilité » plus forte avec Angular ou React, beaucoup plus d’offre d’emploi donc un intérêt surement supérieur pour nos ressources dans la perspective de leur développement professionnel.
+Un argument fort remonté par l’étude de marché citée ci-dessus, c’est une « employabilité » plus forte avec Angular ou React, beaucoup plus d’offres d’emploi donc un intérêt surement supérieur pour nos ressources dans la perspective de leur développement professionnel.
 
 En conclusion de mon retour d'expérience, c’est avant tout hyper  gratifiant pour un développeur de voir qu’on peut proprement, de manière industrielle, créer des composants et des sites très rapidement et bien sûr cloud ready !
 
