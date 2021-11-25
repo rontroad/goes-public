@@ -1,7 +1,7 @@
 ---
 title: "Mon github.io"
 ---
-# Mise en place d'un projet VueJS 3 typescript
+# Mise en place d'un projet VueJS 3 en typescript
 ## Vérification des prérequis
 Vérifier dans une invite de commande la présence des prérequis pour l'installation.
 ```cmd
