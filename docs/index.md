@@ -1,5 +1,6 @@
 ---
 title: "Mon github.io"
+layout: home
 ---
 
 * [2021-11-25 - VueJS alternative crédible pour un développement d'une SPA](2021-11-25-vuejs-alternative-a-react-angular-pour-une-spa.md)
