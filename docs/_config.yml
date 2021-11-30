@@ -1,6 +1,7 @@
 theme: jekyll-theme-slate
 title: Mon github.io
 author: Ronan Troadec
+url: https://rontroad.github.io/goes-public
 github:
   is_project_page: false
 google_analytics: G-G3CPN9LH6R
