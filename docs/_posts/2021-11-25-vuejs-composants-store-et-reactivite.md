@@ -137,7 +137,7 @@ La balise *template* comporte du code au format html avec les augmentations du l
 * il existe des opérateurs pour conditionner la génération de certains bloc, ex. `<div v-if="position !== null">` n'affiche ce bloc que si position n'est pas `null`.
 
 Le résultat donnera le composant ci-dessous :  
-![adresse](./assets/adresse1.png)
+![adresse](/assets/adresse1.png)
 
 ## Récupération de la météo
 On fait la même chose pour la récupération des informations météo en une position. Pour cela, on a un implémentation d'un service sur openWeatherApi (il faut une clé d'API, c'est gratuit mais il faut créer un compte). On va utiliser 2 api :
@@ -257,7 +257,7 @@ Trois choses notables sur cet exemple:
 * l'utilisation des propriétés *computed* qui permet de simplifier la gestion de l'affichage, ne pas hésiter non plus à utiliser des méthodes de formattage comme `formatTemp` qui permettent souvent de simplier le *template*.
 
 Le résultat donnera le composant ci-dessous :  
-![adresse](./assets/meteo1.png)
+![adresse](/assets/meteo1.png)
 
 ## Bilan d'étape
 On a donc implémenté 2 composants, un permettant de définir une location géographique à partir d'une adresse, l'autre récupérant les informations météo sur une localisation géographique, pour le moment en dur. On va commencer par afficher ces composants sur le site :
@@ -296,7 +296,7 @@ export default class Home extends Vue {}
 </style>
 ```
 Cela doit rendre quelque chose comme ça :  
-![site](./assets/site1.png)
+![site](/assets/site1.png)
 
 > L'étape suivante est de relier les 2 composants en utilisant le store VueX. Ce n'est pas la méthode la plus simple, surtout dans notre cas de figure où, pour le moment, il n'y a que 2 composants. Néanmoins, cette approche est nécessaire la plupart du temps dans un projet et on peut se perdre dans des implémentations complexes avant de s'en rendre compte.
 
@@ -459,14 +459,14 @@ A ce moment, on se rend compte que la valeur de position est synchronisée entre
 ...
 ```
 Cela rend quelque chose comme ça :  
-![site](./assets/site2.png)
+![site](/assets/site2.png)
  
 # Conclusion
 Cet exemple permet de se familiariser avec la syntaxe des comopsants VueJS, en typescript, dans ce qui s'appelle l'[Option API](https://v3.vuejs.org/guide/typescript-support.html#using-with-options-api). Une nouveauté de VueJS est la [Composition API](https://v3.vuejs.org/guide/composition-api-introduction.html#why-composition-api) qui permet une meilleure mutualisation du code entre les composants, mais je trouve au détriment de la lisibilité du code, surtout dans un [Single File Component](https://v3.vuejs.org/guide/single-file-component.html#introduction).
 
 
 Elle donne aussi les clés pour mettre en place un store partagé et reactif. L'exemple peut être étendu avec d'autres composants qui se synchronisent tous en cas de modification de position, cf. ci-dessous.
-![site](./assets/site3.png)
+![site](/assets/site3.png)
 L'utilisation du store est optionnelle dans un projet VueJS et sa mise en oeuvre n'est pas si triviale (surtout en typescript), néanmoins, pour un projet réel, son utilité est plus que probable et on peut vite se perdre à essayer de gérer "à la main" le partage d'une information via les propriétés et les événments de chaque composant.
 
 A noter que la *composition API* fournit un mécanisme d'injection de propriétés qui est plutôt un pattern d'inversion de contrôle mais qui facilite le partage d'information entre les composants.
