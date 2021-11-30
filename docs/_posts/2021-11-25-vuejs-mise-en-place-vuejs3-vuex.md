@@ -95,7 +95,7 @@ Le fichier `src/views/Home.vue` donne une illustration de l'approche par composa
 ```typescript
 <template>
   <div class="home">
-    <img alt="Vue logo" src="./assets/logo.png" />
+    <img alt="Vue logo" src=".{{ site.url }}/assets/logo.png" />
     <HelloWorld msg="Welcome to Your Vue.js + TypeScript App" />
   </div>
 </template>
