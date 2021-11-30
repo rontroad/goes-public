@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "VueJS, une alternative crédible pour le développement d'une SPA"
 meta_image: "{{ site.url }}/assets/vuejs.png"
 ---
